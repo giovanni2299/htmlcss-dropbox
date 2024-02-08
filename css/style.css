@@ -5,13 +5,44 @@
     box-sizing: border-box;
 }
 
-ul,ol menu{
+ul,ol{
     list-style: none;
+}
+/* LAYOUT */
+.row{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+/* UTILITIES */
+.flex{
+    display: flex;
+
+}
+
+/* HEADER */
+
+.row.justify-between{
+    align-items: center;
+}
+
+.flex li{
+    padding: 10px;
+}
+
+.header__left__part{
+    padding: 10px;
+}
+
+.header__right__part{
+    padding: 10px;
 }
 
 
-
-
+/* DEBUG */
 
 
 
