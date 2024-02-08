@@ -113,11 +113,21 @@ img{
 
 #radio-under-title{
     margin-bottom: 100px;
+    margin-left: 100px;
 }
 
 .col-33{
     max-width: 33%;
-    background-color: red;
+}
+
+.card{
+    border: 1px solid gray;
+}
+
+.card-header{
+    padding: 10px 100px;
+    text-align: center;
+
 }
 
 /* DEBUG */
