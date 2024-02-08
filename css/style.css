@@ -13,10 +13,16 @@ ul,ol{
 /* LAYOUT */
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .justify-between{
     justify-content: space-between;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* UTILITIES */
@@ -48,9 +54,33 @@ ul,ol{
     color: white;
 }
 
+/* MAIN */
 
 
 /* DEBUG */
+.debug section{
+    background-color: #B4D0E7;
+    padding: 30px;
+}
 
+.debug .title{
+    font-size: 100px;
+    margin-bottom: 20px;
+}
 
+.debug .col-30{
+    width: 30%;
+}
 
+.debug .col-70{
+    width: 70%;
+}
+
+.col-30.flex{
+    flex-direction: column;
+}
+
+.debug .downarrow{
+    font-size: 30px;
+    /* margin-top: auto; */
+}
