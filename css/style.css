@@ -30,10 +30,18 @@ img{
     margin: 0 auto;
 }
 
+.container-sm{
+    max-width: 1000px;
+    margin: 0 auto;
+}
 /* UTILITIES */
 .flex{
     display: flex;
 
+}
+
+.section{
+    padding: 50px;
 }
 
 /* HEADER */
@@ -60,9 +68,8 @@ img{
 }
 
 /* MAIN */
-.section-jumbo{
+.section.jumbo{
     background-color: #B4D0E7;
-    padding: 30px;
 }
 
 .title{
