@@ -8,6 +8,8 @@
 ul,ol{
     list-style: none;
 }
+
+
 /* LAYOUT */
 .row{
     display: flex;
@@ -40,6 +42,12 @@ ul,ol{
 .header__right__part{
     padding: 10px;
 }
+
+.btn{
+    background-color: #0061FF;
+    color: white;
+}
+
 
 
 /* DEBUG */
