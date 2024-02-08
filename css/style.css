@@ -68,6 +68,8 @@ img{
 }
 
 /* MAIN */
+
+/* FIRST-SECTION */
 .section.jumbo{
     background-color: #B4D0E7;
 }
@@ -102,6 +104,20 @@ img{
 .downarrow{
     font-size: 30px;
     margin-top: auto;
+}
+/* /FIRST-SECTION */
+/* SECOND-SECTION */
+.title-container-sm{
+    margin-bottom: 100px;
+}
+
+#radio-under-title{
+    margin-bottom: 100px;
+}
+
+.col-33{
+    max-width: 33%;
+    background-color: red;
 }
 
 /* DEBUG */
