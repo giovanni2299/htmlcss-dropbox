@@ -9,6 +9,9 @@ ul,ol{
     list-style: none;
 }
 
+img{
+    max-width: 100%;
+}
 
 /* LAYOUT */
 .row{
@@ -76,11 +79,16 @@ ul,ol{
     width: 70%;
 }
 
+.col-30 ul{
+    margin-top: 20px;
+}
+
 .col-30.flex{
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .debug .downarrow{
     font-size: 30px;
-    /* margin-top: auto; */
+    margin-top: auto;
 }
