@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+    
 
 ul,ol{
     list-style: none;
@@ -58,29 +60,27 @@ img{
 }
 
 /* MAIN */
-
-
-/* DEBUG */
-.debug section{
+.section-jumbo{
     background-color: #B4D0E7;
     padding: 30px;
 }
 
-.debug .title{
-    font-size: 100px;
-    margin-bottom: 20px;
+.title{
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
-.debug .col-30{
+.col-30{
     width: 30%;
 }
 
-.debug .col-70{
+.col-70{
     width: 70%;
 }
 
 .col-30 ul{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .col-30.flex{
@@ -88,7 +88,24 @@ img{
     align-items: flex-start;
 }
 
-.debug .downarrow{
+.col-30.flex ul>li{
+    margin-top: 20px;
+}
+
+.downarrow{
     font-size: 30px;
     margin-top: auto;
 }
+
+/* DEBUG */
+
+
+
+
+
+
+
+
+
+
+
