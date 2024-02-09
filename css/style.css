@@ -265,7 +265,12 @@ hr{
 }
 
 .card-buisness-header img{
+    width: 100%;
     max-width: 300px;
+}
+
+.card-buisness-main{
+    width: 100%;
 }
 /* DEBUG */
 
