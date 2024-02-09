@@ -261,9 +261,12 @@ hr{
 
 .container-sm>h1{
     padding: 0 22px;
+    margin-bottom: 80px;
 }
 
-
+.card-buisness-header img{
+    max-width: 300px;
+}
 /* DEBUG */
 
 
