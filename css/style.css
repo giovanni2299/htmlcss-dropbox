@@ -159,12 +159,12 @@ header{
 }
 
 .col-33{
-    max-width: calc(100% / 3);
+    max-width: calc(100% / 3 - 3px);
     margin-bottom: 90px;
 }
 
 .col100{
-    width: 100%;
+    width: calc(100% - 3px);
 }
 
 .card-header{
@@ -209,19 +209,59 @@ hr{
 
 .card-body-description>*{
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .btn-card-right{
     padding: 10px 20px;
+    margin-top: 10px;
 }
 
 .btn-card-right a{
     text-decoration: none;
     color: white;
 }
+/* THIRD-SECTION */
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.col-40{
+    width:calc(40% - 3px);
+    padding: 40px;
+}
+.col-40 *{
+    margin-top: 20px;
+}
+
+.col-40>p{
+    font-size: 20px;
+}
+
+.col-40>h1{
+    font-size: 25px;
+}
+
+.col-40-button{
+    font-size: 15px;
+    background-color: white;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: outset;
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-left-style: outset;
+    padding:10px;
+}
+
+.col-60{
+    width: calc(60% - 3px);
+}
+
+
+
 /* DEBUG */
-
-
 
 
 
