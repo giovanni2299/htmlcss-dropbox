@@ -43,10 +43,25 @@ img{
 .section{
     padding: 50px;
 }
-.mrgn-top{
+
+.mrgn-top.mrgn-bottom{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.btn.btn-card{
+    width: 60%;
+    padding: 10px 5px;
+}
+
+.btn.btn-card a{
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    width: 20%;
+}
 
 /* HEADER */
 
