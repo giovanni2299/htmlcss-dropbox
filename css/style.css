@@ -66,6 +66,10 @@ img{
 
 /* HEADER */
 
+header{
+    min-height: 80px;
+}
+
 .row.justify-between{
     align-items: center;
 }
@@ -147,6 +151,7 @@ img{
 
 .card{
     padding: 0 10px;
+    height: 100%;
 }
 
 .col-33{
@@ -162,6 +167,7 @@ img{
 .card-body{
     padding: 0 10px;
     border: 1px solid gray;
+    height: 100%;
 }
 
 .card-body ul>li{
