@@ -159,12 +159,12 @@ header{
 }
 
 .col-33{
-    max-width: calc(100% / 3 - 3px);
+    max-width: calc(100% / 3 - 10px);
     margin-bottom: 90px;
 }
 
 .col100{
-    width: calc(100% - 3px);
+    width: calc(100% - 30px);
 }
 
 .card-header{
@@ -226,7 +226,7 @@ hr{
     flex-direction: row-reverse;
 }
 .col-40{
-    width:calc(40% - 3px);
+    width:calc(40% - 30px);
     padding: 40px;
 }
 .col-40 *{
@@ -256,9 +256,12 @@ hr{
 }
 
 .col-60{
-    width: calc(60% - 3px);
+    width: calc(60% + 5px);
 }
 
+.container-sm>h1{
+    padding: 0 22px;
+}
 
 
 /* DEBUG */
