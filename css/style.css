@@ -50,6 +50,10 @@ img{
     align-items: center;
 }
 
+.menu{
+    align-items: center;
+}
+
 .flex li{
     padding: 10px;
 }
