@@ -15,6 +15,10 @@ img{
     max-width: 100%;
 }
 
+button{
+    border: none;
+}
+
 /* LAYOUT */
 .row{
     display: flex;
@@ -49,7 +53,7 @@ img{
     margin-bottom: 20px;
 }
 
-.btn.btn-card{
+.btn-card{
     width: 65%;
     padding: 10px;
     margin: auto;
@@ -156,6 +160,11 @@ header{
 
 .col-33{
     max-width: calc(100% / 3);
+    margin-bottom: 90px;
+}
+
+.col100{
+    width: 100%;
 }
 
 .card-header{
@@ -168,6 +177,7 @@ header{
     padding: 0 10px;
     border: 1px solid gray;
     height: 100%;
+    justify-content: space-between;
 }
 
 .card-body ul>li{
@@ -195,6 +205,19 @@ hr{
 .check{
     font-size: 10px;
     color: #0061FF;
+}
+
+.card-body-description>*{
+    margin-bottom: 20px;
+}
+
+.btn-card-right{
+    padding: 10px 20px;
+}
+
+.btn-card-right a{
+    text-decoration: none;
+    color: white;
 }
 /* DEBUG */
 
