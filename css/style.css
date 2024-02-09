@@ -54,6 +54,7 @@ img{
     padding: 10px;
     margin: auto;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .btn.btn-card a{
@@ -144,10 +145,13 @@ img{
     margin-left: 100px;
 }
 
+.card{
+    padding: 0 10px;
+}
+
 .col-33{
     max-width: calc(100% / 3);
 }
-
 
 .card-header{
     padding: 10px 100px;
