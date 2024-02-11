@@ -286,6 +286,42 @@ hr{
     font-size: 15px;
 }
 
+
+/* FIFTH SECTION */
+.design-member{
+    height: 640px;
+    width: 640px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.squere{
+    flex-basis: 50%;
+    position: relative;
+}
+
+.squere img{
+    max-width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.squere.green{
+    background-color: #A2D39B;
+}
+
+.bordeoux{
+    background-color: #61082B;
+}
+
+.light-blue{
+    background-color: #0093CE;
+}
+
+.red{
+    background-color: #FF1C1C;
+}
 /* DEBUG */
 
 
