@@ -354,9 +354,16 @@ hr{
     display: inline-block;
     margin-left: 200px;
 }
+/* FOOTER */
+footer{
+    background-color: black;
+}
+.col-white ul{
+    color: white;
+}
 
-.faq{
-   
+.col-white ul>li{
+    margin-bottom: 20px;
 }
 /* DEBUG */
 
