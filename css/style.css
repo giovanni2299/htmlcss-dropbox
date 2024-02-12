@@ -254,6 +254,7 @@ hr{
     border-bottom-style: outset;
     border-left-style: outset;
     padding:10px;
+    text-align: center;
 }
 
 .col-60{
@@ -318,6 +319,26 @@ hr{
     filter: invert(0);
 }
 
+.central{
+    padding: 25px;
+}
+
+.central img,p{
+    margin-top: 20px;
+}
+/* SIXTPART OF MAIN */
+.col__60{
+    width: 60%;
+}
+
+.col__40{
+    width: 40%;
+}
+
+.col-40-button a{
+    text-decoration: none;
+    
+}
 /* DEBUG */
 
 
