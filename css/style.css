@@ -339,6 +339,25 @@ hr{
     text-decoration: none;
     
 }
+
+/* SEVENTH PART */
+.faq{
+    padding: 10px 0 20px 0;
+    border-top: 1px solid black;
+}
+
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+
+.dtrif-inline-block{
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.faq{
+   
+}
 /* DEBUG */
 
 
