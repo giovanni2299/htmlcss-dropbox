@@ -288,40 +288,36 @@ hr{
 
 
 /* FIFTH SECTION */
-.design-member{
-    height: 640px;
-    width: 640px;
-    flex-direction: row;
-    flex-wrap: wrap;
+.col__33{
+    width: calc(100% / 3);
 }
 
-.squere{
-    flex-basis: 50%;
+.col__33 .col__50{
+    width:50%;
+    
+}
+.col__33.flex{
+    flex-wrap: wrap;
     position: relative;
 }
 
-.squere img{
-    max-width: 50%;
+.col__50{
+    position: relative;
+}
+
+.col__50 img{
+    filter: invert(1);
+    width: 50%;
     position: absolute;
-    top: 40%;
-    left: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.squere.green{
-    background-color: #A2D39B;
+.col__50.topps img{
+    filter: invert(0);
 }
 
-.bordeoux{
-    background-color: #61082B;
-}
-
-.light-blue{
-    background-color: #0093CE;
-}
-
-.red{
-    background-color: #FF1C1C;
-}
 /* DEBUG */
 
 
